@@ -1,0 +1,930 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header_fon {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 82%;
+    margin-top: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 42.19px;
+    text-align: left;
+    color: black;
+}
+
+.navbar_description ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar_description ul li a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    color: #737373;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 82%;
+}
+
+.showcase_description {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.showcase_description h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 58.59px;
+    text-align: left;
+    color: black;
+    width: 596px;
+}
+
+.showcase_description button {
+    width: 179px;
+    height: 53px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border: none;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 200px;
+}
+
+section {
+    width: 100%;
+    max-width: 80%;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.one_title h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    color: black;
+}
+
+.one_title h2 span {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    background: linear-gradient(to bottom, #f32170, #1d05f3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.one_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.fon_2 {
+    display: none;
+}
+
+.fon_3 {
+    display: none;
+}
+
+.fon_1 {
+    position: absolute;
+    top: -4px;
+    left: -13%;
+    z-index: -1;
+}
+
+.fon_4 {
+    display: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 5px 10px 20px 0 pink;
+    border-radius: 9px;
+}
+
+.box img {
+    border-radius: 9px 9px 0 0;
+}
+
+.box_description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 5% 10px 5%;
+}
+
+.box_description span {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: left;
+    color: black;
+}
+
+.box_description p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    text-align: left;
+    color: #767676;
+    width: 289px;
+}
+
+.s {
+    max-width: 100%;
+}
+
+.second {
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    position: relative;
+    width: 35%;
+    height: 187px;
+    border-radius: 9px;
+}
+
+.card_2 {
+    display: none;
+}
+
+.card_3 {
+    display: none;
+}
+
+.card_1 img {
+    position: absolute;
+    top: -100px;
+    left: 35%;
+}
+
+.card_1 div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 10% 20px 10%;
+
+}
+
+.card_1 div span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    color: #000;
+}
+
+.card_1 div p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.23px;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+.footer_nav {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 172px 15% 84px 15%;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_logo p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact span {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    color: #000;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact div p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 9.5px;
+    text-align: left;
+    color: black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about span {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    color: black;
+}
+
+.about div p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    color: black;
+    width: 224px;
+}
+
+@media (max-width:769px) {
+    .header_nav {
+        max-width: 82%;
+        justify-content: start;
+    }
+
+    .navbar_description {
+        display: none;
+    }
+
+    .showcase {
+        max-width: 82%;
+        position: relative;
+    }
+
+    .showcase_description {
+        gap: 53px;
+    }
+
+    .showcase_description h1 {
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: left;
+        color: black;
+        width: 323px;
+    }
+
+    .showcase_description button {
+        width: 141px;
+        height: 42px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 17.58px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .showcase_img img {
+        width: 260px;
+    }
+
+    section {
+        max-width: 80%;
+    }
+
+    .fon_1 {
+        display: none;
+    }
+
+    .fon_2 {
+        display: block;
+    }
+
+    .fon_3 {
+        display: block;
+    }
+
+    .one_title h2 {
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46.88px;
+        text-align: center;
+        color: black;
+    }
+
+    .one_title h2 span {
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46.88px;
+        text-align: center;
+    }
+
+    .one_container {
+        position: relative;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .fon_2 {
+        position: absolute;
+        top: 100px;
+        left: -12%;
+        z-index: -1;
+    }
+
+    .fon_3 {
+        position: absolute;
+        bottom: -100px;
+        right: -12%;
+        z-index: -1;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box img {
+        width: 100%;
+        height: 152px;
+    }
+
+    .box div p {
+        width: 95%;
+    }
+
+    .second {
+        padding: 97px 10%;
+        flex-direction: column;
+        gap: 120px;
+    }
+
+    .card {
+        display: none;
+    }
+
+    .card_1 {
+        width: 100%;
+    }
+
+    .card_2 {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #fff;
+        position: relative;
+        width: 100%;
+        height: 187px;
+        border-radius: 9px;
+    }
+
+    .card_2 img {
+        position: absolute;
+        top: -100px;
+        left: 35%;
+    }
+
+    .card_2 div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 70px 10% 20px 10%;
+
+    }
+
+    .card_2 div span {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21.09px;
+        text-align: center;
+        color: #000;
+    }
+
+    .card_2 div p {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15.23px;
+        text-align: center;
+        color: #8e8e8e;
+    }
+
+    .card_3 {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #fff;
+        position: relative;
+        width: 100%;
+        height: 187px;
+        border-radius: 9px;
+    }
+
+    .card_3 img {
+        position: absolute;
+        top: -100px;
+        left: 35%;
+    }
+
+    .card_3 div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 70px 10% 20px 10%;
+
+    }
+
+    .card_3 div span {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21.09px;
+        text-align: center;
+        color: #000;
+    }
+
+    .card_3 div p {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15.23px;
+        text-align: center;
+        color: #8e8e8e;
+    }
+
+    .footer_nav {
+        padding: 95px 5% 41px 5%;
+        position: relative;
+    }
+
+    .fon_4 {
+        display: block;
+        position: absolute;
+        top: 90px;
+        left: 80px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1400px) {
+    .header_nav {
+        max-width: 82%;
+        justify-content: space-between;
+    }
+
+    .showcase {
+        max-width: 82%;
+    }
+
+    .showcase_description h1 {
+        width: 400px;
+    }
+
+    section {
+        max-width: 80%;
+    }
+
+    .one_container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box_description {
+        padding: 0 5% 20px 5%;
+    }
+
+    .box img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .box_description p {
+        width: 90%
+    }
+
+    .second {
+        flex-direction: column;
+        gap: 100px;
+        padding: 100px 0 100px 0;
+    }
+
+    .card {
+        display: none;
+    }
+
+    .card_1 {
+        width: 60%;
+    }
+
+    .card_1 img {
+        left: 37%;
+    }
+.card_1 div {
+    padding: 50px 10% 20px 10%;
+}
+    .card_2,
+    .card_3 {
+        display: block;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #fff;
+        position: relative;
+        height: 187px;
+        border-radius: 9px;
+    }
+
+    .card_2 img {
+        position: absolute;
+        top: -100px;
+        left: 37%;
+    }
+
+    .card_2 div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 10% 20px 10%;
+
+    }
+
+    .card_2 div span {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21.09px;
+        text-align: center;
+        color: #000;
+    }
+
+    .card_2 div p {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15.23px;
+        text-align: center;
+        color: #8e8e8e;
+    }
+
+    .card_3 img {
+        position: absolute;
+        top: -100px;
+        left: 37%;
+    }
+
+    .card_3 div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 10% 20px 10%;
+
+    }
+
+    .card_3 div span {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21.09px;
+        text-align: center;
+        color: #000;
+    }
+
+    .card_3 div p {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15.23px;
+        text-align: center;
+        color: #8e8e8e;
+    }
+
+    .footer_nav {
+        padding: 50px;
+
+    }
+}
+
+@media (max-width:368px) {
+    header {
+        position: relative;
+        gap: 80px;
+    }
+
+    .header_nav {
+        max-width: 80%;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .logo h2 {
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 21.09px;
+        text-align: left;
+        color: black;
+    }
+
+    .header_fon {
+        display: block;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 100%;
+    }
+
+    .showcase {
+        justify-content: center;
+    }
+
+    .showcase_img {
+        display: none;
+    }
+
+    .showcase_description {
+        align-items: center;
+    }
+
+    .showcase_description h1 {
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 25px;
+        text-align: center;
+        color: black;
+        width: 194px;
+    }
+
+    .showcase_description button {
+        width: 93px;
+        height: 28px;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 11.72px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .one_title h2 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        text-align: center;
+        color: black;
+    }
+
+    .one_title h2 span {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        text-align: center;
+    }
+
+    .fon_4 {
+        display: none;
+    }
+
+    .card_1 div {
+        padding: 60px 5% 20px 5%;
+    }
+ .card_1 img{
+    top: -50px;
+    left: 35%;
+    width: 100px;
+ }
+    .card_1 div span {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14.06px;
+        text-align: center;
+        color: black;
+    }
+    .card_2 div {
+        padding: 60px 5% 20px 5%;
+    }
+    .card_2 img {
+        left: 35%;
+        top: -50px;
+        width: 100px;
+    }
+    .card_2 div span {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14.06px;
+        text-align: center;
+        color: black;
+    }
+    .card_3 div {
+        padding: 60px 5% 20px 5%;
+    }
+    .card_3 img {
+        left: 35%;
+        width: 100px;
+        top: -50px;
+    }
+    .card_3 div span {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14.06px;
+        text-align: center;
+        color: black;
+    }
+    .footer_nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer_logo{
+        align-items: center;
+    }
+    .about{
+        align-items: center;
+    }
+    .contact{
+        align-items: center;
+    }
+    .about div p{
+        text-align: center;
+    }
+}
+@media (min-width:368px) and (max-width:722px) {
+    header{
+        gap: 70px;
+    }
+    .header_nav{
+        justify-content: center;
+    }
+    .showcase{
+        justify-content: center;
+    }
+    .showcase_description{
+        align-items: center;
+    }
+    .showcase_description h1{
+        text-align: center;
+    }
+    .showcase_description button{
+        width: 50%;
+    }
+    .showcase_img{
+        display: none;
+    }
+    .fon_4{
+        display: none;
+    }
+    .card_1 div {
+        padding: 40px 5% 20px 5%;
+    }
+    .card_1 img{
+        left: 33%;
+    }
+    .card_2 img{
+        left: 33%;
+    }
+    .card_3 img{
+        left: 33%;
+    }
+    .card_2 div {
+        padding: 40px 5% 20px 5%;
+    }
+    .card_3 div {
+        padding: 40px 5% 20px 5%;
+    }
+    .footer_nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .about{
+        align-items: center;
+    }
+    .footer_logo{
+        align-items: center;
+    }
+    .contact{
+        align-items: center;
+    }
+    .about div p{
+        text-align: center;
+    }
+}
