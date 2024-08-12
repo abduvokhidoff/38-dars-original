@@ -80,7 +80,9 @@ header {
     color: black;
     width: 596px;
 }
-
+.showcase_description a{
+    width: max-content;
+}
 .showcase_description a button {
     width: 179px;
     height: 53px;
@@ -885,11 +887,11 @@ section {
         text-align: center;
     }
     .showcase_description a {
-        width: 100%;
+        width: 55%;
         text-align: center;
     }
     .showcase_description a button{
-        width: 50%;
+        width: 100%;
     }
     .showcase_img{
         display: none;
