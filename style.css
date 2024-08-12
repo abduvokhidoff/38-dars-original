@@ -81,7 +81,7 @@ header {
     width: 596px;
 }
 
-.showcase_description button {
+.showcase_description a button {
     width: 179px;
     height: 53px;
     background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
@@ -371,7 +371,7 @@ section {
         width: 323px;
     }
 
-    .showcase_description button {
+    .showcase_description a button {
         width: 141px;
         height: 42px;
         font-family: Roboto;
@@ -769,7 +769,7 @@ section {
         width: 194px;
     }
 
-    .showcase_description button {
+    .showcase_description a button {
         width: 93px;
         height: 28px;
         font-family: Roboto;
@@ -876,6 +876,7 @@ section {
     }
     .showcase{
         justify-content: center;
+        align-items: center;
     }
     .showcase_description{
         align-items: center;
@@ -883,7 +884,11 @@ section {
     .showcase_description h1{
         text-align: center;
     }
-    .showcase_description button{
+    .showcase_description a {
+        width: 100%;
+        text-align: center;
+    }
+    .showcase_description a button{
         width: 50%;
     }
     .showcase_img{
